@@ -1,20 +1,17 @@
-/* README
-* 
-* Ayah Harper and Josh Bernstein
-* Project 4: GERP
-* 4/30/2023
-*
-* 
+Ayah Harper and Josh Bernstein | Project 4: GERP | 4/30/2023
 
 Program Purpose:
+    
     The purpose of this program is to implement a version of the unix
     grep program, which indexes a directory and allows the user to 
     search for sequences of characters within that directory.
 
 Acknowledgement:
+    
     Timely Piazza responses!
 
 Files:
+
     unit_tests.h: unit testing for stringProcessing.h
 
     main.cpp: Main file for the GERP program 
@@ -107,10 +104,12 @@ Files:
     large_test.in: Tests words from largeGutenberg 
 
 Compile/run:
+
     Compile using "make gerp" command
     Run using "./gerp inputDirectory outputFile"
 
 Architectural Overview:
+
     In main.cpp, we pass the name of the user-provided input
     directory to an FSTree constructor to build a file tree.
     We then construct a Gerp object and call its "run"
